@@ -1,0 +1,50 @@
+.dracula {
+    background-color: #282a36;
+    color: #f8f8f2;
+}
+  
+.calculator-container {
+width: 250px;
+height: 400px;
+margin: 0 auto;
+border-radius: 20px;
+}
+
+.calculator-screen {
+width: 100%;
+/* height: 50%; */
+background-color: #44475a;
+border-radius: 20px 20px 0 0;
+text-align: right;
+font-size: larger;
+padding: 20px;
+}
+
+.calculator-keypad {
+width: 100%;
+height: 60%;
+background-color: #6272a4;
+border-radius: 0 0 20px 20px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 15px;
+padding: 20px;
+}
+
+.calculator-key {
+background-color: #44475a;
+border-radius: 20px;
+font-size: 20px;
+padding: 3px;
+cursor: pointer;
+border: none;
+}
+
+.calculator-key:hover{
+color: #f8f8f2;
+}
+
+.calculator-key:active{
+background-color: #bd93f9;
+
+}
